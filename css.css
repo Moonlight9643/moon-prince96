@@ -232,15 +232,15 @@ li a:focus {
   display: flow-root;
   overflow: auto;
 } */
-.columns {
+/* .columns {
   column-count: 4;
   column-width: 250px;
   column-rule: 3px solid #333;
   column-gap: 3rem;
-}
-.columns p {
+} */
+/* .columns p {
   margin-top: 0;
-}
+} */
 /* .columns h2 {
   margin-top: 0;
   background-color: #333;
@@ -248,3 +248,39 @@ li a:focus {
   break-inside: avoid;
   break-before: column;
 } */
+/* .columns .qoute {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+} */
+/* .nowrap {
+  white-space: nowrap;
+} */
+article {
+  min-width: 200vh;
+}
+.outer-container {
+  position: relative;
+  border: 3px dashed #000;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+}
+.inner-container {
+  border: 2px solid #00f;
+  width: 40vw;
+  height: 50vh;
+  margin: 200px auto;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+}
+.box-absolute {
+  background-color: #00f;
+  position: absolute;
+}
